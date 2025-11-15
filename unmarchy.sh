@@ -14,5 +14,6 @@
 ./install-unzip.sh
 
 ./install-dotfiles.sh
+./install-hyprland-overrides.sh
 
 ./set-shell.sh
