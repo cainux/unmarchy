@@ -31,6 +31,7 @@ if [ $? -eq 0 ]; then
   stow ghostty
   stow nvim
   stow zsh
+  stow tmux
 else
   echo "Failed to clone the repository"
   exit 1

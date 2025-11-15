@@ -7,6 +7,7 @@
 ./install-eza.sh
 ./install-zoxide.sh
 ./install-bat.sh
+./install-tmux.sh
 
 ./install-volta.sh
 ./install-ripgrep.sh
