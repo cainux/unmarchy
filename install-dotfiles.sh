@@ -25,10 +25,11 @@ fi
 # Check if clone was successful
 if [ $? -eq 0 ]; then
   echo "Removing old configs"
-  rm -rf ~/.config/ghostty
+  rm -rf ~/.config/ghostty ~/.config/nvim
 
   cd "$REPO_NAME"
   stow ghostty
+  stow nvim
 else
   echo "Failed to clone the repository"
   exit 1
