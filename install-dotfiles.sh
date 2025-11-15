@@ -30,6 +30,7 @@ if [ $? -eq 0 ]; then
   cd "$REPO_NAME"
   stow ghostty
   stow nvim
+  stow zsh
 else
   echo "Failed to clone the repository"
   exit 1
