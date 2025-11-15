@@ -25,7 +25,7 @@ fi
 # Check if clone was successful
 if [ $? -eq 0 ]; then
   echo "Removing old configs"
-  rm -rf ~/.config/ghostty ~/.config/nvim
+  rm -rf ~/.config/ghostty ~/.config/nvim ~/.local/share/nvim/ ~/.cache/nvim/
 
   cd "$REPO_NAME"
   stow ghostty
